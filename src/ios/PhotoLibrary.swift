@@ -11,13 +11,13 @@ import Photos
 
         URLProtocol.registerClass(PhotoLibraryProtocol.self)
         
-        let status = PHPhotoLibrary.authorizationStatus()
+        // let status = PHPhotoLibrary.authorizationStatus()
 
-        if (status == PHAuthorizationStatus.notDetermined) {
+        // if (status == PHAuthorizationStatus.notDetermined) {
             // Access has not been determined.
-            PHPhotoLibrary.requestAuthorization({ (newStatus) in
-            })
-        }
+           // PHPhotoLibrary.requestAuthorization({ (newStatus) in
+           // })
+        // }
 
     }
 
